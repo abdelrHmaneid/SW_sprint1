@@ -15,6 +15,10 @@ public abstract class  Registration {
         this.email = email;
     }
 
+    public  Registration(){
+
+    }
+
     public void setEmail(String email) {
         this.email = email;
     }
@@ -46,18 +50,9 @@ public abstract class  Registration {
     public String getEmail() {
         return email;
     }
-    public abstract void login();
+    public abstract boolean login(String username, String password);
 
 
-    public Registration() {
-        try {
-            Connection connection = DriverManager.getConnection("jdbc:sqlite:C:\\Users\\Abd Elrahman\\IdeaProjects\\Gobr\\data.db");
-            Statement statement = connection.createStatement();
-            statement.executeUpdate("insert into User Values()");
-        }
-        catch (SQLException throwable) {
-            System.out.println("Error!");;
-        }
-    }
+    public abstract void Register();
 
 }
