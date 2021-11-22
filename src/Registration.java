@@ -50,8 +50,8 @@ public abstract class  Registration {
     public String getEmail() {
         return email;
     }
-    public abstract boolean login(String username, String password);
 
+    public abstract boolean login(String username, String password);
 
     public abstract void Register();
 
