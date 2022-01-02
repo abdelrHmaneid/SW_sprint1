@@ -23,4 +23,5 @@ public class DriverProfile {
     String nationalID;
     String license;
     String state;
+    double rate;
 }
