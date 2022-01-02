@@ -23,7 +23,8 @@ public class OfferPriceController {
         String destination = Offer.get("destination");
         String num = Offer.get("passengers");
         String price = Offer.get("price");
+        String driverName = Offer.get("driverName");
         Rides ride = new Rides(username,source,destination,Integer.parseInt(num),"0");
-        offerPriceService.addPrice(ride,price);
+        offerPriceService.addPrice(ride,price,driverName);
     }
 }

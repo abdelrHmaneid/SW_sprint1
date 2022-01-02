@@ -26,7 +26,7 @@ public class DriverRegisterController {
         String DriverEmail = Driver.get("email");
         String nationalID = Driver.get("nationalID");
         String license = Driver.get("licence");
-        DriverProfile driverProfile = new DriverProfile(DriverName,DriverPass,DriverPhone,DriverEmail,nationalID,license,"0",0);
+        DriverProfile driverProfile = new DriverProfile(DriverName,DriverPass,DriverPhone,DriverEmail,nationalID,license,"0",0,0);
         driverRegisterService.Register(driverProfile);
     }
 }

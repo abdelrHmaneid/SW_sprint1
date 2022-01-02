@@ -24,4 +24,5 @@ public class DriverProfile {
     String license;
     String state;
     double rate;
+    int available;
 }
