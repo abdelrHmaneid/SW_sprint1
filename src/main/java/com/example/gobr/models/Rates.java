@@ -18,5 +18,6 @@ import javax.persistence.Id;
 public class Rates {
     @Id
     String username;
-    String rate;
+    int rate;
+    String driverName;
 }
