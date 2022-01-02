@@ -9,4 +9,5 @@ import java.util.List;
 @Repository
 public interface RideRepos extends JpaRepository<Rides, Integer> {
     List<Rides> getAllByDestination(String destination);
+    List<Rides> getAllByNumberOfPassengers(int num);
 }
