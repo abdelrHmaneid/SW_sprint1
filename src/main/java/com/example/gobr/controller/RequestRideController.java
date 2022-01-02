@@ -23,7 +23,7 @@ public class RequestRideController {
         String source = Ride.get("source");
         String destination = Ride.get("destination");
         String num = Ride.get("passengers");
-        Rides ride = new Rides(username,source,destination,Integer.parseInt(num),"0");
+        Rides ride = new Rides(username,source,destination,Integer.parseInt(num),0);
         requestRideService.request(ride);
     }
 }

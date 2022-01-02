@@ -22,9 +22,9 @@ public class Rides {
     String source;
     String destination;
     int numberOfPassengers;
-    String price;
+    double price;
 
-    public Rides(String username, String source, String destination,int numberOfPassengers, String price) {
+    public Rides(String username, String source, String destination,int numberOfPassengers, double price) {
         this.username = username;
         this.source = source;
         this.destination = destination;

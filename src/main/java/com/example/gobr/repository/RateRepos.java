@@ -8,5 +8,5 @@ import java.util.List;
 
 @Repository
 public interface RateRepos extends JpaRepository<Rates,String> {
-    public List<Rates> getAllByDriverName(String driverName);
+    List<Rates> getAllByDriverName(String driverName);
 }
