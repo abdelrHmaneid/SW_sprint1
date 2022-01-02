@@ -1,6 +1,5 @@
 package com.example.gobr.service;
 
-import com.example.gobr.models.DriverProfile;
 import com.example.gobr.models.UserProfile;
 import com.example.gobr.repository.UserRepos;
 import org.springframework.beans.factory.annotation.Autowired;

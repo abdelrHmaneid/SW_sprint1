@@ -1,11 +1,11 @@
 package com.example.gobr.controller;
 
 import com.example.gobr.models.UserProfile;
+import com.example.gobr.service.UserRegisterService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-import com.example.gobr.service.UserRegisterService;
 
 import java.util.Map;
 

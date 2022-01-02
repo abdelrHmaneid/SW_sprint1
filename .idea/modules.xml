@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Gobr.iml" filepath="$PROJECT_DIR$/Gobr.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gobr.iml" filepath="$PROJECT_DIR$/gobr.iml" />
     </modules>
   </component>
 </project>

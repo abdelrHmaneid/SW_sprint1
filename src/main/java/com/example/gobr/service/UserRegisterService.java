@@ -1,9 +1,9 @@
 package com.example.gobr.service;
 
 import com.example.gobr.models.UserProfile;
+import com.example.gobr.repository.UserRepos;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.example.gobr.repository.UserRepos;
 
 @Service
 public class UserRegisterService {

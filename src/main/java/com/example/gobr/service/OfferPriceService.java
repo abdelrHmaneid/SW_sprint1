@@ -15,7 +15,7 @@ public class OfferPriceService {
     }
 
     public void addPrice(Rides rides, String price){
-        if(rideRepos.existsById(rides.getUsername())){
+        if(rideRepos.existsById(rides.getId())){
             rides.setPrice(price);
         }
     }

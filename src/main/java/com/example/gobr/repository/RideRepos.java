@@ -5,5 +5,5 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface RideRepos extends JpaRepository<Rides, String> {
+public interface RideRepos extends JpaRepository<Rides, Integer> {
 }

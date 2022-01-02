@@ -1,9 +1,9 @@
 package com.example.gobr.service;
 
 import com.example.gobr.models.DriverProfile;
+import com.example.gobr.repository.DriverRepos;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.example.gobr.repository.DriverRepos;
 
 @Service
 public class DriverRegisterService {
