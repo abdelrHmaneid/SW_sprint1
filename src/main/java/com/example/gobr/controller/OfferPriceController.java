@@ -21,8 +21,9 @@ public class OfferPriceController {
         String username = Offer.get("username");
         String source = Offer.get("source");
         String destination = Offer.get("destination");
+        String num = Offer.get("passengers");
         String price = Offer.get("price");
-        Rides ride = new Rides(username,source,destination,"0");
+        Rides ride = new Rides(username,source,destination,Integer.parseInt(num),"0");
         offerPriceService.addPrice(ride,price);
     }
 }

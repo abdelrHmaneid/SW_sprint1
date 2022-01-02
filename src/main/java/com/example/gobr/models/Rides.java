@@ -21,12 +21,14 @@ public class Rides {
     String username;
     String source;
     String destination;
+    int numberOfPassengers;
     String price;
 
-    public Rides(String username, String source, String destination, String price) {
+    public Rides(String username, String source, String destination,int numberOfPassengers, String price) {
         this.username = username;
         this.source = source;
         this.destination = destination;
+        this.numberOfPassengers = numberOfPassengers;
         this.price = price;
     }
 }
